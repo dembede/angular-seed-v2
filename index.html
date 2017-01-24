@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html data-ng-app="myApp" ng-controller="mainController">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="">
+    <meta property="og:image" content="" />
+    <meta itemprop="url" content="">
+    <meta name="keywords" content="">
+
+    <title ng-bind="pageTitle()">AngularJS Apps Template</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="stylesheet" href="assets/css/customBootstrap.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/app.css" />
+
+    <!-- Set base URL (optional)  -->
+    <!-- <base href="/"> -->
+
+  </head>
+  <body class="">
+    <!-- Handles header and navigation -->
+    <header>
+      <div class="container">
+        <div class="navbar navbar-header">
+          <a class="navbar-brand" href="#home" target="_self">
+            <!-- <img class="app-logo" src="assets/img/logo.png"> -->
+          </a>
+          <!-- <div class="secondary-menu" ng-include="'templates/user-menu.html'"></div> -->
+          <!-- <div class="primary-menu" ng-include="'templates/header.html'"></div> -->
+        </div>
+      </div>
+    </header>
+    <!-- Handles main content  -->
+    <div id="main">
+      <div class="container">
+        <div ng-view></div>
+      </div>
+    </div>
+    <!-- <div ng-include="'templates/footer.html'"></div> -->
+
+    <!-- JS SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script> -->
+    <script src="assets/js/angular-route.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="app-controller.js"></script>
+    <script src="app-service.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="home/homeController.js"></script>
+
+  </body>
+</html>
